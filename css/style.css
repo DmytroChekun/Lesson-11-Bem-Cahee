@@ -23,7 +23,7 @@ body{
     margin: 0 auto;
 }
 .footer{
-    width: 1170px;
+    width: 1250px;
     margin: 0 auto;
     height: 700px;
 }
@@ -120,4 +120,35 @@ body{
     background-color: #00b2b1;
 }
 
+.footer__footer-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing:border-box;
+    width: 1300px;
+}
+
+.footer-post__img-wrapper{
+    margin-top: 35px;
+}
+
+.footer-post__content-wrapper{
+    margin-top: 160px;
+}
+
+.content{
+    color: #fff;
+    width: 500px;
+}
+
+.content__footer-title{
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.content__footer-text{
+    line-height: 27px;
+    margin-bottom: 10px;
+}
 
