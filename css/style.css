@@ -23,7 +23,7 @@ body{
     margin: 0 auto;
 }
 .footer{
-    width: 1250px;
+    width: 1350px;
     margin: 0 auto;
     height: 700px;
 }
@@ -40,9 +40,6 @@ body{
     justify-content: space-between;
 }
 
-.menu__logo{
-}
-
 .menu__nav-bar{
     width: 560px;
     display: flex;
@@ -53,13 +50,14 @@ body{
 }
 
 .menu__nav-item{
-    padding: 6px 2px 15px 2px;
+    padding: 6px 1px 15px 1px;
     border-top: 3px solid transparent;
 }
 
 .menu__nav-item:hover{
     border-top: 3px #ff6033 solid;
     box-sizing: border-box;
+    transition: all 0.3s;
 }
 
 .nav-item__link{
@@ -107,13 +105,27 @@ body{
     height: 55px;
     background: #ff6033;
     border: none;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+
+.button:hover{
+    background: #f3bcad;
+    color: rgb(255, 61, 61);
+}
+.button:active{
+    width: 210px;
+}
+.button:focus{
+    outline: none;
 }
 
 .header__content-box{
     display: flex;
     justify-content: center;
     margin-top: 275px;
+}
+
+.img-box__item:hover{
 }
 
 .footer-wrapper{
